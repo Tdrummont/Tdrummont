@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/XfQKkMrEdcB8A/giphy.gif" alt="Dino do Google" width="500"/>
+</p>
+
 <h1 align="center">Olá! Eu sou a Thalita 👋</h1>
 
 <p align="center">
