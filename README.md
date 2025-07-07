@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/XfQKkMrEdcB8A/giphy.gif" alt="Dino do Google" width="500"/>
+  <img src="[https://media.giphy.com/media/XfQKkMrEdcB8A/giphy.gif](https://github.com/Tdrummont/Tdrummont/blob/main/banner-thalita.png)" alt="Thalita - Full Stack Developer banner" width="800"/>
 </p>
 
 <h1 align="center">Olá! Eu sou a Thalita 👋</h1>
