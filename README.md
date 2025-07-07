@@ -12,8 +12,6 @@
 
 ### 💻 Sobre mim
 
-### 💻 Sobre mim
-
 Sou Dev Full Stack com foco em arquitetura de software moderna utilizando **Laravel 12** no backend e **Vue 3** com **Vuetify** e **TailwindCSS** no frontend. Tenho forte compromisso com boas práticas de desenvolvimento, como **Clean Code**, **SOLID** e **DDD**, buscando sempre escrever código escalável, legível e eficiente.
 
 Atuo como **cofundadora do grupo YggdraCode**, uma iniciativa voltada à colaboração e crescimento técnico de desenvolvedores(as), promovendo a troca de conhecimento e desenvolvimento de soluções reais.
