@@ -1,6 +1,7 @@
-<!-- Banner animado -->
+<!-- Banner animado (CSS-only, compatível com GitHub) -->
 <p align="center">
-  <img src="assets/dev-typing.svg" alt="Typing dev banner" width="700"/>
+  <img src="https://raw.githubusercontent.com/Tdrummont/Tdrummont/main/dev-typing-github.svg"
+       alt="Typing dev banner" width="700"/>
 </p>
 
 <h1 align="center">Olá! Eu sou a Thalita 👋</h1>
@@ -22,7 +23,8 @@ Possuo experiência com ferramentas essenciais de desenvolvimento moderno, como 
 ---
 
 <!-- Divider animado -->
-<img src="assets/wave-divider.svg" width="100%" alt="Wave divider"/>
+<img src="https://raw.githubusercontent.com/Tdrummont/Tdrummont/main/wave-divider.svg"
+     width="100%" alt="Wave divider"/>
 
 ### 🛠️ Stacks & Ferramentas
 
@@ -54,7 +56,8 @@ Possuo experiência com ferramentas essenciais de desenvolvimento moderno, como 
 ---
 
 <!-- Divider animado -->
-<img src="assets/wave-divider.svg" width="100%" alt="Wave divider"/>
+<img src="https://raw.githubusercontent.com/Tdrummont/Tdrummont/main/wave-divider.svg"
+     width="100%" alt="Wave divider"/>
 
 ### 📈 Estatísticas GitHub
 
