@@ -4,11 +4,7 @@
        alt="Typing dev banner" width="700"/>
 </p>
 
-<h1 align="center">Olá! Eu sou a Thalita 👋</h1>
 
-<p align="center">
-  Desenvolvedora Full Stack com foco em arquitetura moderna de software, apaixonada por código limpo, automações e boas práticas.
-</p>
 
 ---
 
