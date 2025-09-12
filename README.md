@@ -1,6 +1,6 @@
 <!-- Banner animado (CSS-only, compatível com GitHub) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Tdrummont/Tdrummont/main/dev-typing-github.svg"
+  <img src="https://raw.githubusercontent.com/Tdrummont/Tdrummont/main/dev-typing.svg"
        alt="Typing dev banner" width="700"/>
 </p>
 
