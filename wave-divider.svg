@@ -1,0 +1,18 @@
+<svg width="800" height="80" viewBox="0 0 800 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <style>
+      .wave { fill: #0ea5e9; opacity: 0.25; }
+      .wave2 { fill: #10b981; opacity: 0.2; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-400px); } }
+      .mover { animation: drift 12s linear infinite; }
+      @media (prefers-color-scheme: dark) {
+        .wave { fill: #38bdf8; opacity: 0.25; }
+        .wave2 { fill: #34d399; opacity: 0.2; }
+      }
+    </style>
+  </defs>
+  <g class="mover">
+    <path class="wave" d="M0,40 C150,20 250,60 400,40 C550,20 650,60 800,40 L800,80 L0,80 Z"/>
+    <path class="wave2" d="M0,48 C160,28 240,68 400,48 C560,28 640,68 800,48 L800,80 L0,80 Z"/>
+  </g>
+</svg>

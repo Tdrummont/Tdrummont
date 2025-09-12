@@ -1,0 +1,121 @@
+<svg width="800" height="140" viewBox="0 0 800 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes caret-blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      .container {
+        font: 700 28px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+        fill: #0f172a;
+      }
+      .line { white-space: nowrap; overflow: hidden; }
+      .line.typing {
+        width: 0;
+        animation: typing 4s steps(40, end) 0.3s forwards;
+      }
+      .caret {
+        animation: caret-blink 1s steps(2, start) infinite;
+      }
+      .sub {
+        font: 500 18px system-ui, sans-serif;
+        fill: #334155;
+        opacity: 0;
+        animation: fadeIn 0.8s ease 4.4s forwards;
+      }
+      @keyframes fadeIn { to { opacity: 1; } }
+      .pill {
+        font: 600 14px system-ui, sans-serif;
+        fill: #0f172a;
+      }
+      .badge {
+        rx: 14;
+        ry: 14;
+        fill: #e2e8f0;
+      }
+      .badge:nth-of-type(2) { fill: #ddebf8; }
+      .badge:nth-of-type(3) { fill: #e7e5ff; }
+      .badge:nth-of-type(4) { fill: #dcfce7; }
+      .badge:nth-of-type(5) { fill: #fee2e2; }
+      @keyframes slideUp {
+        from { transform: translateY(12px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      .tag { opacity: 0; }
+      .tag:nth-child(1) { animation: slideUp 0.4s ease 4.6s forwards; }
+      .tag:nth-child(2) { animation: slideUp 0.4s ease 4.8s forwards; }
+      .tag:nth-child(3) { animation: slideUp 0.4s ease 5.0s forwards; }
+      .tag:nth-child(4) { animation: slideUp 0.4s ease 5.2s forwards; }
+      .tag:nth-child(5) { animation: slideUp 0.4s ease 5.4s forwards; }
+      @media (prefers-color-scheme: dark) {
+        .container { fill: #e5e7eb; }
+        .sub { fill: #cbd5e1; }
+        .pill { fill: #e5e7eb; }
+        .badge { fill: #1f2937; }
+        .badge:nth-of-type(2) { fill: #1e293b; }
+        .badge:nth-of-type(3) { fill: #312e81; }
+        .badge:nth-of-type(4) { fill: #064e3b; }
+        .badge:nth-of-type(5) { fill: #7f1d1d; }
+      }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="transparent"/>
+  <g class="container" transform="translate(24,32)">
+    <g>
+      <text class="line typing" x="0" y="0">
+        <tspan x="0" dy="1em">Olá! Eu sou dev full stack</tspan>
+        <tspan x="0" dy="1.4em">Laravel • Vue • PostgreSQL</tspan>
+      </text>
+      <rect class="caret" x="0" y="0.35em" width="3" height="1.2em" fill="#10b981"/>
+    </g>
+    <text class="sub" x="0" y="78">Construindo produtos limpos, performáticos e escaláveis.</text>
+
+    <g transform="translate(0,96)">
+      <g class="tag">
+        <rect class="badge" width="120" height="28" />
+        <text class="pill" x="14" y="19">TypeScript</text>
+      </g>
+      <g class="tag" transform="translate(132,0)">
+        <rect class="badge" width="96" height="28" />
+        <text class="pill" x="14" y="19">Laravel</text>
+      </g>
+      <g class="tag" transform="translate(240,0)">
+        <rect class="badge" width="108" height="28" />
+        <text class="pill" x="14" y="19">PostgreSQL</text>
+      </g>
+      <g class="tag" transform="translate(360,0)">
+        <rect class="badge" width="76" height="28" />
+        <text class="pill" x="14" y="19">Vue 3</text>
+      </g>
+      <g class="tag" transform="translate(448,0)">
+        <rect class="badge" width="128" height="28" />
+        <text class="pill" x="14" y="19">TailwindCSS</text>
+      </g>
+    </g>
+  </g>
+
+  <script type="application/ecmascript"><![CDATA[
+    // Move the caret as the text "types"
+    (function() {
+      var svg = document.currentScript.ownerSVGElement;
+      var caret = svg.querySelector('.caret');
+      var typing = svg.querySelector('.typing');
+      var total = 0;
+      function measure() {
+        // Use getBBox width growth as the text reveals
+        var w = typing.getBBox().width;
+        caret.setAttribute('x', 24 + w + 2);
+      }
+      var i = 0;
+      var interval = setInterval(function(){
+        measure();
+        if (++i > 420) clearInterval(interval);
+      }, 20);
+    })();
+  ]]></script>
+</svg>

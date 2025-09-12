@@ -1,0 +1,45 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: transparent; }
+      .title { font: 700 28px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial; fill: #0f172a; }
+      .subtitle { font: 500 16px system-ui, sans-serif; fill: #334155; }
+      .line { fill: none; stroke: #10b981; stroke-width: 4; stroke-linecap: round; }
+      .draw {
+        stroke-dasharray: 320;
+        stroke-dashoffset: 320;
+        animation: draw 2.2s ease forwards 0.4s;
+      }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @media (prefers-color-scheme: dark) {
+        .title { fill: #e5e7eb; }
+        .subtitle { fill: #cbd5e1; }
+      }
+      .chip {
+        fill: none;
+        stroke: #0ea5e9;
+        stroke-width: 2.5;
+        stroke-dasharray: 12 6;
+        animation: dash 6s linear infinite;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -72; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="100%" height="100%"/>
+  <g transform="translate(28,28)">
+    <text class="title" x="120" y="28">&lt;code/&gt; em produção</text>
+    <text class="subtitle" x="120" y="56">Deploys, filas, cache e eventos em tempo real</text>
+
+    <!-- Laptop outline -->
+    <path class="line draw" d="M10 100 h220 a8 8 0 0 0 8-8 v-64 a8 8 0 0 0-8-8 h-220 a8 8 0 0 0-8 8 v64 a8 8 0 0 0 8 8 z"/>
+    <path class="line draw" d="M-10 112 h260"/>
+
+    <!-- &lt; / &gt; glyph -->
+    <path class="line draw" d="M72 76 l-22 -16 m22 16 l-22 16" />
+    <path class="line draw" d="M156 60 l22 16 m-22 16 l22 16" />
+    <path class="chip" d="M38 28 h172 v44 h-172 z"/>
+  </g>
+</svg>
