@@ -1,5 +1,6 @@
+<!-- Banner animado -->
 <p align="center">
-  <img src="https://github.com/Tdrummont/Tdrummont/blob/main/banner-thalita.png" alt="Thalita - Full Stack Developer banner" width="460"/>
+  <img src="assets/dev-typing.svg" alt="Typing dev banner" width="700"/>
 </p>
 
 <h1 align="center">Olá! Eu sou a Thalita 👋</h1>
@@ -18,8 +19,10 @@ Atuo como **cofundadora do grupo YggdraCode**, uma iniciativa voltada à colabor
 
 Possuo experiência com ferramentas essenciais de desenvolvimento moderno, como **Git**, **GitLab CI/CD** e **Docker**, atuando desde o versionamento até a automação de deploys. Estou constantemente em evolução, explorando novas abordagens, frameworks e tecnologias que otimizem a entrega de valor através do código.
 
-
 ---
+
+<!-- Divider animado -->
+<img src="assets/wave-divider.svg" width="100%" alt="Wave divider"/>
 
 ### 🛠️ Stacks & Ferramentas
 
@@ -50,6 +53,9 @@ Possuo experiência com ferramentas essenciais de desenvolvimento moderno, como 
 
 ---
 
+<!-- Divider animado -->
+<img src="assets/wave-divider.svg" width="100%" alt="Wave divider"/>
+
 ### 📈 Estatísticas GitHub
 
 <p align="center">
@@ -57,6 +63,14 @@ Possuo experiência com ferramentas essenciais de desenvolvimento moderno, como 
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tdrummont&theme=dracula" alt="GitHub Streak" />
 </p>
+
+---
+
+### 📚 Atualmente estudando
+
+- GoLang  
+- Automação com IA  
+- Arquitetura distribuída  
 
 ---
 
