@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://github.com/Tdrummont/Tdrummont/blob/main/banner-thalita.png" alt="Thalita - Full Stack Developer banner" width="460"/>
+  <img src="https://github.com/Tdrummont/Tdrummont/blob/main/banner-thalita.png" alt="Thalita - Software Engineer banner" width="460"/>
 </p>
 
-<h1 align="center">Olá! Eu sou a Thalita 👋</h1>
+<h1 align="center">Olá, eu sou a Thalita 👋</h1>
 
 <p align="center">
-  Full Stack Developer · Laravel & Vue · Clean Code · DDD · Open to networking
+  Software Engineer · Laravel & Vue · IA Aplicada & Automação · Clean Code · DDD
 </p>
 
 <p align="center">
@@ -20,15 +20,21 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Tdrummont&style=for-the-badge&color=blueviolet" alt="Profile views" />
+</p>
+
 ---
 
 ### 💻 Sobre mim
 
-Sou Dev Full Stack com foco em **arquitetura de software moderna**, utilizando **Laravel 12** no backend e **Vue 3** com **Vuetify** e **TailwindCSS** no frontend. Tenho compromisso sólido com boas práticas como **Clean Code**, **SOLID** e **DDD** — escrevo código pensando em quem vai mantê-lo depois.
+Sou Software Engineer com foco em **arquitetura de software moderna**, atuando com **Laravel 12** no backend e **Vue 3** (Vuetify + TailwindCSS) no frontend. Escrevo código guiado por **Clean Code**, **SOLID** e **DDD**, sempre pensando em quem vai manter o sistema depois de mim.
 
-Sou **cofundadora do YggdraCode**, um grupo colaborativo focado no crescimento técnico de desenvolvedores(as), onde promovemos troca de conhecimento e desenvolvimento de soluções reais.
+Nos últimos tempos, tenho expandido minha atuação para o universo de **Inteligência Artificial aplicada**: acompanho de perto a evolução dos modelos de IA e trabalho diretamente com **engenharia de prompts** e **criação de processos automatizados** que integram IA a fluxos reais de produto — do desenho do prompt à automação ponta a ponta.
 
-Atualmente trabalho com o ciclo completo de entrega: do versionamento com **Git** ao deploy com **GitLab CI/CD** e **Docker**. Estou sempre em evolução, explorando novas abordagens que agreguem valor real ao produto e à equipe.
+Sou **cofundadora do YggdraCode**, comunidade voltada ao crescimento técnico de devs, com foco em troca de conhecimento e construção de soluções reais em conjunto.
+
+Meu ciclo de entrega passa por **Git**, **GitLab CI/CD** e **Docker** — do versionamento ao deploy. Estou sempre buscando abordagens que agreguem valor real ao produto e à equipe.
 
 ---
 
@@ -48,6 +54,13 @@ Atualmente trabalho com o ciclo completo de entrega: do versionamento com **Git*
   <img src="https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
   <img src="https://img.shields.io/badge/-Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white" />
   <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+**IA & Automação**
+<p>
+  <img src="https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Prompt_Engineering-6E56CF?style=for-the-badge&logo=sparkles&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Automação-00A67E?style=for-the-badge&logo=zapier&logoColor=white" />
 </p>
 
 **Banco de Dados**
@@ -71,12 +84,12 @@ Atualmente trabalho com o ciclo completo de entrega: do versionamento com **Git*
 ### 🧠 Princípios que guiam meu trabalho
 
 ```
-Clean Code  ·  SOLID  ·  DDD  ·  Design Patterns  ·  Code Review  ·  Documentação
+Clean Code · SOLID · DDD · Design Patterns · Code Review · Documentação · IA Responsável
 ```
 
 ---
 
-### 📌 Projetos em Destaque
+### 📌 Projetos em destaque
 
 - 📝 **Sistema de Carta Precatória — Polícia Civil**
   Aplicação para cadastro e gerenciamento de cartas precatórias, com validações dinâmicas, controle de envolvidos e rastreabilidade por protocolo.
@@ -85,6 +98,10 @@ Clean Code  ·  SOLID  ·  DDD  ·  Design Patterns  ·  Code Review  ·  Docume
 - 🚗 **Relatório de Viagem — Polícia Civil**
   Sistema de registro, validação e gerenciamento de viagens oficiais com controle de usuários e integração de dados.
   🔗 _Repositório privado/institucional — entre em contato para mais detalhes_
+
+- 🤖 **Automações com IA & Prompt Engineering**
+  Desenho e implementação de prompts e fluxos automatizados que conectam modelos de IA a processos reais de produto, reduzindo trabalho manual e acelerando entregas.
+  🔗 _Detalhes sob demanda — entre em contato_
 
 ---
 
@@ -111,7 +128,7 @@ Clean Code  ·  SOLID  ·  DDD  ·  Design Patterns  ·  Code Review  ·  Docume
 
 ### 🤝 Vamos nos conectar?
 
-Estou sempre aberta a trocar experiências, colaborar em projetos e crescer junto com a comunidade dev. Se quiser bater um papo sobre tecnologia, arquitetura de software ou iniciativas como o **YggdraCode**, me chama!
+Estou sempre aberta a trocar experiências, colaborar em projetos e crescer junto com a comunidade dev — seja em arquitetura de software, engenharia de prompts ou iniciativas como o **YggdraCode**. Me chama!
 
 <p align="center">
   <a href="https://www.linkedin.com/in/thalita-s-costa/">LinkedIn</a> ·
